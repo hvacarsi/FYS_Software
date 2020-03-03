@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="321.0" prefWidth="455.0" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="luggagesoftware.LoginController">
+    <children>
+        <TextField fx:id="name" layoutX="67.0" layoutY="116.0" prefHeight="38.0" prefWidth="320.0" />
+        <PasswordField id="password" fx:id="password" layoutX="67.0" layoutY="165.0" prefHeight="38.0" prefWidth="320.0" />
+        <Button id="buttonx" fx:id="button" defaultButton="true" layoutX="67.0" layoutY="239.0" onAction="#handleButtonAction" prefHeight="38.0" prefWidth="320.0" stylesheets="@../../css/style.css" textFill="WHITE">
+            <font>
+                <Font name="Arial Black" size="13.0" />
+            </font>
+        </Button>
+        <Label fx:id="loginErrorLbl" layoutX="67.0" layoutY="76.0" minHeight="16" minWidth="69" style="-fx-text-fill: rgb(240,0,0);">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      
+        <Button id="spanishBtn" fx:id="spanishBtn" alignment="CENTER" layoutX="299.0" layoutY="277.0" prefHeight="30.0" prefWidth="50.0" style="-fx-graphic: url('images/spanish.png'); -fx-background-color: transparent; -fx-cursor: hand;" text="" />
+          
+        <Button id="turkishBtn" fx:id="turkishBtn" alignment="CENTER" layoutX="229.0" layoutY="277.0" prefHeight="30.0" prefWidth="50.0" style="-fx-graphic: url('images/turkish.png'); -fx-background-color: transparent; -fx-cursor: hand;" text="" />
+        <Button id="englishBtn" fx:id="englishBtn" alignment="CENTER" layoutX="161.0" layoutY="277.0" prefHeight="30.0" prefWidth="50.0" style="-fx-graphic: url('images/english.png'); -fx-background-color: transparent; -fx-cursor: hand;" />
+      <Hyperlink fx:id="forgotPassword" layoutX="67.0" layoutY="210.0" text="FORGOT_PASSWORD_TEXT" />
+      <ImageView fitHeight="62.0" fitWidth="332.0" layoutX="118.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" y="3.0">
+         <image>
+            <Image url="@../../images/logo.png" />
+         </image>
+      </ImageView>
+      <Button id="englishBtn" fx:id="dutchBtn" alignment="CENTER" layoutX="91.0" layoutY="277.0" prefHeight="30.0" prefWidth="50.0" style="-fx-graphic: url('images/dutch.png'); -fx-background-color: transparent; -fx-cursor: hand;" />
+    </children>
+</AnchorPane>

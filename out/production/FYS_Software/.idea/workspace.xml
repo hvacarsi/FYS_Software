@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b85a65f-ab40-42e5-8ff9-39e3b9310679" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1YcaNXIXTFaxtfyNwbcslFbLuVo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="luggagesoftware.controller" />
+      <recent name="luggagesoftware" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LuggageSoftware">
+    <configuration name="LuggageSoftware" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="luggagesoftware.LuggageSoftware" />
+      <module name="FYS_Software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="luggagesoftware.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FYS_Software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="luggagesoftware.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="luggagesoftware.controller" />
+      <option name="MAIN_CLASS_NAME" value="luggagesoftware.controller.EmployeeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="luggagesoftware.controller in FYS_Software" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="FYS_Software" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="luggagesoftware.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="luggagesoftware.controller" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LuggageSoftware" />
+        <item itemvalue="JUnit.EmployeeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b85a65f-ab40-42e5-8ff9-39e3b9310679" name="Default Changelist" comment="" />
+      <created>1583244296940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583244296940</updated>
+      <workItem from="1583244298243" duration="4375000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="475" y="0" key="#All_in_FYS_Software" timestamp="1583248230497">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="475" y="0" key="#All_in_FYS_Software/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248230497" />
+    <state x="233" y="0" key="#Intentions" timestamp="1583247288896">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Intentions/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583247288896" />
+    <state x="233" y="0" key="#Plugins" timestamp="1583246931438">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Plugins/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583246931438" />
+    <state x="233" y="0" key="#Project_Structure" timestamp="1583247785940">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583247785940" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583245154376">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583245154376" />
+    <state x="608" y="115" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583248290099">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="608" y="115" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248290099" />
+    <state x="758" y="200" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583248092984">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="758" y="200" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248092984" />
+    <state x="475" y="0" key="#luggagesoftware.controller_in_FYS_Software" timestamp="1583248292006">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="475" y="0" key="#luggagesoftware.controller_in_FYS_Software/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248292006" />
+    <state x="395" y="56" key="DetectedRootsChooserDialog" timestamp="1583248957544">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="395" y="56" key="DetectedRootsChooserDialog/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248957544" />
+    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1583245027327">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583245027327" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1583249036280">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583249036280" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1583249036280">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583249036280" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1583249036279">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583249036279" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1583249036280">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583249036280" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1583249075778">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583249075778" />
+    <state x="376" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583247843110">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="376" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583247843110" />
+    <state x="405" y="44" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583248761470">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="405" y="44" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248761470" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1583246919238">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583246919238" />
+  </component>
+</project>

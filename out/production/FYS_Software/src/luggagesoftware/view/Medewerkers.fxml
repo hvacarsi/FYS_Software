@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="801.0" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="luggagesoftware.MedewerkersController">
+   <children>
+      <Button id="menuBtn" fx:id="lostLuggageBtn" layoutY="90.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="201.0" stylesheets="@../../css/style.css" text="Lost luggage" textFill="#fffdfd">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font></Button>
+      <Button id="menuBtn" fx:id="foundLuggageBtn" layoutX="200.0" layoutY="90.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="201.0" stylesheets="@../../css/style.css" text="Found luggage" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font></Button>
+      <Button id="menuBtn" fx:id="statisticsBtn" layoutX="400.0" layoutY="90.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="201.0" stylesheets="@../../css/style.css" text="Statistics" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font></Button>
+      <Button id="menuBtn" fx:id="contributorsBtn" layoutX="600.0" layoutY="90.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="201.0" styleClass="buttonSelect" stylesheets="@../../css/style.css" text="Contributors" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font></Button>
+      <ImageView fitHeight="83.0" fitWidth="267.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/logo.png" />
+         </image>
+      </ImageView>
+      <Button id="editBtn" fx:id="editBtn" layoutX="675.0" layoutY="534.0" prefHeight="37.0" stylesheets="@../../css/style.css" text="Edit" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font>
+      </Button>
+      <Button id="searchBtn" fx:id="searchBtn" layoutX="413.0" layoutY="144.0" prefHeight="50.0" prefWidth="170.0" stylesheets="@../../css/style.css" text="Filter" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font>
+      </Button>
+      <Button id="registerBtn" fx:id="registerBtn" layoutX="20.0" layoutY="534.0" prefHeight="37.0" stylesheets="@../../css/style.css" text="Register" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font>
+      </Button>
+      <MenuButton fx:id="settingsMenuBtn" layoutX="640.0" layoutY="6.0" mnemonicParsing="false" prefHeight="29.0" styleClass="MenuItem" stylesheets="@../../css/style.css" text="SETTINGS_TEXT" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font>
+         <items>
+            <MenuItem fx:id="profileBtn" mnemonicParsing="false" styleClass="btn" text="PROFIEL_TEXT" />
+            <MenuItem fx:id="logOutBtn" mnemonicParsing="false" styleClass="btn" text="LOGOUT_TEXT" />
+            <MenuItem fx:id="closeBtn" mnemonicParsing="false" styleClass="btn" text="CLOSE_PROGRAM_BTN" />
+         </items>
+      </MenuButton>
+      <Button fx:id="resetBtn" layoutX="594.0" layoutY="144.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="151.0" text="Reset" />
+      <ComboBox fx:id="whatCB" layoutX="225.0" layoutY="144.0" prefHeight="50.0" prefWidth="180.0" promptText="Select an option" />
+      <TextField fx:id="keywordFld" layoutX="20.0" layoutY="144.0" prefHeight="50.0" prefWidth="192.0" promptText="Keyword" />
+      <TableView fx:id="table" editable="true" layoutX="20.0" layoutY="208.0" prefHeight="304.0" prefWidth="723.0" />
+   </children>
+</AnchorPane>

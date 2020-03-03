@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="luggagesoftware.ProfileController">
+   <children>
+      <Label fx:id="nameLbl" layoutX="89.0" layoutY="105.0" text="NAME_TEXT" />
+      <Label fx:id="createdLbl" layoutX="89.0" layoutY="173.0" text="CREATED_DATE_TEXT" />
+      <Label fx:id="lastLoginLbl" layoutX="89.0" layoutY="141.0" text="LAST_LOGIN_TEXT" />
+      <Label fx:id="emailLbl" layoutX="89.0" layoutY="209.0" text="EMAIL_TEXT" />
+      <Label fx:id="changePassLbl" layoutX="89.0" layoutY="249.0" text="CHANGE PASSWORD" />
+      <Label fx:id="newPassLbl" layoutX="118.0" layoutY="273.0" text="NEW_PASSWORD" />
+      <Label fx:id="repeatPassLbl" layoutX="116.0" layoutY="310.0" text="REPEAT_NEW_PASSWORD" />
+      <Button fx:id="saveBtn" layoutX="511.0" layoutY="361.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="95.0" styleClass="btn" stylesheets="@../../css/style.css" text="SAVE_TEXT" />
+      <Button fx:id="gobackBtn" layoutY="360.0" mnemonicParsing="false" prefHeight="39.0" text="GO_BACK_CANCEL" />
+      <ImageView fitHeight="73.0" fitWidth="267.0" layoutX="25.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/logo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nameTxt" layoutX="292.0" layoutY="101.0" prefHeight="25.0" prefWidth="257.0" />
+      <TextField fx:id="emailTxt" layoutX="292.0" layoutY="205.0" prefHeight="25.0" prefWidth="257.0" />
+      <Label fx:id="lastLoginValueLbl" layoutX="292.0" layoutY="141.0" text="Label" />
+      <Label fx:id="createdValueLbl" layoutX="292.0" layoutY="173.0" text="Label" />
+      <PasswordField fx:id="nPassTxt" layoutX="292.0" layoutY="269.0" prefHeight="25.0" prefWidth="257.0" />
+      <PasswordField fx:id="rnPassTxt" layoutX="292.0" layoutY="306.0" prefHeight="25.0" prefWidth="257.0" />
+   </children>
+</AnchorPane>

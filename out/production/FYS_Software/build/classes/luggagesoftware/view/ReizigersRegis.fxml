@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="529.0" prefWidth="801.0" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="luggagesoftware.controller.ReizigersRegisController">
+   <children>
+      <TextField id="firstNameTxt" fx:id="firstNameTxt" layoutX="291.0" layoutY="120.0" prefHeight="31.0" prefWidth="218.0" />
+      <Label id="firstNameLbl" fx:id="firstNameLbl" layoutX="97.0" layoutY="125.0" text="First name:">
+         <font>
+            <Font name="Webdings" size="15.0" />
+         </font></Label>
+      <Label id="lastNameLbl" fx:id="lastNameLbl" layoutX="97.0" layoutY="160.0" prefHeight="31.0" text="Last name:" />
+      <Label id="addressLbl" fx:id="addressLbl" layoutX="99.0" layoutY="242.0" text="Address:" />
+      <DatePicker id="dateOfBirthTxt" fx:id="dateOfBirthTxt" layoutX="291.0" layoutY="197.0" style="-fx-cursor: hand;" />
+      <TextField id="lastNameTxt" fx:id="lastNameTxt" layoutX="291.0" layoutY="160.0" prefHeight="31.0" prefWidth="218.0" />
+      <Label id="dateOfBirthLbl" fx:id="dateOfBirthLbl" layoutX="96.0" layoutY="202.0" prefHeight="21.0" prefWidth="188.0" text="Date of Birth (dd-mm-yyyy):" />
+      <TextField id="addressTxt" fx:id="addressTxt" layoutX="291.0" layoutY="237.0" prefHeight="31.0" prefWidth="218.0" />
+      <Label id="cityLbl" fx:id="cityLbl" layoutX="98.0" layoutY="279.0" text="City:" />
+      <TextField id="cityTxt" fx:id="cityTxt" layoutX="291.0" layoutY="274.0" prefHeight="31.0" prefWidth="218.0" />
+      <TextField id="countryTxt" fx:id="countryTxt" layoutX="291.0" layoutY="347.0" prefHeight="31.0" prefWidth="218.0" />
+      <TextField id="emailAddressTxt" fx:id="emailAddressTxt" layoutX="291.0" layoutY="385.0" prefHeight="31.0" prefWidth="218.0" />
+      <TextField id="phoneNumberTxt" fx:id="phoneNumberTxt" layoutX="291.0" layoutY="424.0" prefHeight="31.0" prefWidth="218.0" />
+      <Label id="countryLbl" fx:id="countryLbl" layoutX="96.0" layoutY="352.0" text="Country:" />
+      <Label id="emailAddressLbl" fx:id="emailAddressLbl" layoutX="97.0" layoutY="390.0" text="E-mail Address:" />
+      <Label id="phoneNumberLbl" fx:id="phoneNumberLbl" layoutX="96.0" layoutY="429.0" text="Phone Number:" />
+      <Button id="backBtn" fx:id="backBtn" layoutX="14.0" layoutY="483.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="72.0" text="Back" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font></Button>
+      <Label fx:id="travelerHeaderLbl" layoutX="203.0" layoutY="90.0" text="Traveler Registration">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Button id="saveBtn" fx:id="saveBtn1" layoutX="465.0" layoutY="483.0" mnemonicParsing="false" prefHeight="31.0" text="Save" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font></Button>
+      <ImageView fitHeight="83.0" fitWidth="267.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/logo.png" />
+         </image>
+      </ImageView>
+      <Line endX="704.0" layoutX="96.0" layoutY="90.0" startX="-96.0" />
+      <MenuButton fx:id="settingsMenuBtn" layoutX="640.0" layoutY="6.0" mnemonicParsing="false" prefHeight="29.0" styleClass="MenuItem" text="SETTINGS_TEXT" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font>
+         <items>
+            <MenuItem fx:id="profileBtn" mnemonicParsing="false" styleClass="btn" text="PROFIEL_TEXT" />
+            <MenuItem fx:id="logOutBtn" mnemonicParsing="false" styleClass="btn" text="LOGOUT_TEXT" />
+            <MenuItem fx:id="closeBtn" mnemonicParsing="false" styleClass="btn" text="CLOSE_PROGRAM_BTN" />
+         </items>
+      </MenuButton>
+      <Label id="countryLbl" fx:id="zipcodeLbl" layoutX="96.0" layoutY="315.0" text="Zipcode" />
+      <TextField id="countryTxt" fx:id="zipcodeTxt" layoutX="291.0" layoutY="310.0" prefHeight="31.0" prefWidth="218.0" />
+      <Button fx:id="deleteBtn" layoutX="222.0" layoutY="483.0" mnemonicParsing="false" text="DELETE" />
+   </children>
+</AnchorPane>

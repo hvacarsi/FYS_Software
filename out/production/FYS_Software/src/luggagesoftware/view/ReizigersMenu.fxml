@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="800.0" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="luggagesoftware.controller.ReizigersMenuController">
+    <children>
+        <Button id="lostLuggageBtn" fx:id="lostLuggageBtn" layoutY="90.0" prefHeight="20.0" prefWidth="266.6666666666667" stylesheets="@../../css/style.css" text="Lost Luggage" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font></Button>
+        <Button id="foundLuggageBtn" fx:id="foundLuggageBtn" layoutX="266.6666666666667" layoutY="90.0" prefHeight="20.0" prefWidth="266.6666666666667" stylesheets="@../../css/style.css" text="Found Luggage" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font></Button>
+        <Button fx:id="reizigersBtn" layoutX="533.3333333336" layoutY="90.0" prefHeight="20.0" prefWidth="266.6666666666667" styleClass="buttonSelect" stylesheets="@../../css/style.css" text="Travelers" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font></Button>
+        <Button id="addBtn" fx:id="addBtn" layoutX="10.0" layoutY="508.0" prefHeight="50.0" prefWidth="171.0" stylesheets="@../../css/style.css" text="Add" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font></Button>
+        <Button id="editBtn" fx:id="editBtn" layoutX="584.0" layoutY="508.0" prefHeight="50.0" prefWidth="144.0" stylesheets="@../../css/style.css" text="Edit" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font></Button>
+      <ImageView fx:id="logoIV" fitHeight="83.0" fitWidth="267.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/logo.png" />
+         </image>
+      </ImageView>
+      <MenuButton fx:id="settingsMenuBtn" layoutX="640.0" layoutY="6.0" mnemonicParsing="false" prefHeight="29.0" styleClass="MenuItem" stylesheets="@../../css/style.css" text="SETTINGS_TEXT" textFill="WHITE">
+         <font>
+            <Font name="UniSansHeavyItalicCAPS" size="15.0" />
+         </font>
+         <items>
+            <MenuItem fx:id="profileBtn" mnemonicParsing="false" styleClass="btn" text="PROFIEL_TEXT" />
+            <MenuItem fx:id="logOutBtn" mnemonicParsing="false" styleClass="btn" text="LOGOUT_TEXT" />
+            <MenuItem fx:id="closeBtn" mnemonicParsing="false" styleClass="btn" text="CLOSE_PROGRAM_BTN" />
+         </items>
+      </MenuButton>
+      <TableView fx:id="table" editable="true" layoutX="10.0" layoutY="198.0" prefHeight="304.0" prefWidth="723.0" />
+      <TextField fx:id="keywordFld" layoutX="10.0" layoutY="134.0" prefHeight="50.0" prefWidth="192.0" promptText="Keyword" />
+      <ComboBox fx:id="whatCB" layoutX="215.0" layoutY="134.0" prefHeight="50.0" prefWidth="180.0" promptText="Select an option" />
+      <Button fx:id="filterBtn" layoutX="411.0" layoutY="134.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="144.0" text="Filter" />
+      <Button fx:id="resetBtn" layoutX="584.0" layoutY="134.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="144.0" text="Reset" />
+      <Button fx:id="connectBtn" layoutX="323.0" layoutY="515.0" mnemonicParsing="false" text="CONNECT" />
+    </children>
+</AnchorPane>
