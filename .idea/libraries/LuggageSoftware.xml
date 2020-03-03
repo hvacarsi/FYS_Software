@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LuggageSoftware">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/LuggageSoftware.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
