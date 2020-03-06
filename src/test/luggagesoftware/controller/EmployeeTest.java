@@ -9,12 +9,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class EmployeeTest {
     Employee testEmp;
     String wrongName = "xyz";
-    String wrongId = "0010";
-    String wrongUsername = "min";
-    String wrongEmail = "can@gmail.com";
-    String wrongLevel = "100";
-    String wrongAirportId = "55";
-    String wrongState = "38";
 
     @BeforeAll
     public void testEmployee(){
@@ -37,37 +31,37 @@ class EmployeeTest {
     @Test
     void getId() {
         String id = testEmp.getId();
-        assertThat(id, startsWith(wrongId));
+        assertThat(id, startsWith("0001"));
     }
 
     @Test
     void getUsername() {
         String username = testEmp.getUsername();
-        assertThat(username, Matchers.endsWith(wrongUsername));
+        assertThat(username, Matchers.endsWith("ahmetcan"));
     }
 
     @Test
     void getMail() {
         String email = testEmp.getMail();
-        assertEquals(email, wrongEmail);
+        assertEquals(email, "ahmet@gmail.com");
     }
 
     @Test
     void getLevel() {
         String level = testEmp.getLevel();
-        assertEquals(level, wrongLevel);
+        assertEquals(level, "1");
     }
 
     @Test
     void getAirport_id() {
         String airport_id = testEmp.getAirport_id();
-        assertEquals(airport_id, wrongAirportId);
+        assertEquals(airport_id, "1");
     }
 
     @Test
     void getState() {
         String state = testEmp.getState();
-        assertEquals(state, wrongState);
+        assertEquals(state, "5");
 
     }
 
