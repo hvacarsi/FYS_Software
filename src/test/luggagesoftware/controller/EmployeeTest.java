@@ -70,4 +70,9 @@ class EmployeeTest {
         assertEquals(state, wrongState);
     }
 
+    @Test
+    void getString() {
+        String stringWhat = testEmp.getString("name");
+        assertEquals(testEmp.getName(), stringWhat);
+    }
 }
