@@ -1,55 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b85a65f-ab40-42e5-8ff9-39e3b9310679" name="Default Changelist" comment="" />
+    <list default="true" id="d1165d48-7a4f-4558-bfb1-5816b5641693" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="355" />
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="theboss" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1YcaNXIXTFaxtfyNwbcslFbLuVo" />
+  <component name="ProjectId" id="1Ykpr4M9N8jIV1MIEGln2NOK6uk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hamcrest-2.2.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="luggagesoftware.controller" />
-      <recent name="luggagesoftware" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.LuggageSoftware">
+  <component name="RunManager" selected="JUnit.EmployeeTest">
     <configuration name="LuggageSoftware" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="luggagesoftware.LuggageSoftware" />
       <module name="FYS_Software" />
@@ -78,9 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="luggagesoftware.controller in FYS_Software" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="EmployeeTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FYS_Software" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="luggagesoftware.controller.*" />
@@ -88,18 +77,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="luggagesoftware.controller" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="PARAMETERS" value="" />
+      <option name="MAIN_CLASS_NAME" value="luggagesoftware.controller.EmployeeTest" />
+      <option name="METHOD_NAME" value="getName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest.getState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FYS_Software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="luggagesoftware.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="luggagesoftware.controller" />
+      <option name="MAIN_CLASS_NAME" value="luggagesoftware.controller.EmployeeTest" />
+      <option name="METHOD_NAME" value="getState" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest.getUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FYS_Software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="luggagesoftware.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="luggagesoftware.controller" />
+      <option name="MAIN_CLASS_NAME" value="luggagesoftware.controller.EmployeeTest" />
+      <option name="METHOD_NAME" value="getUsername" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LuggageSoftware" />
         <item itemvalue="JUnit.EmployeeTest" />
+        <item itemvalue="JUnit.EmployeeTest.getUsername" />
+        <item itemvalue="JUnit.EmployeeTest.getName" />
+        <item itemvalue="JUnit.EmployeeTest.getState" />
+        <item itemvalue="Application.LuggageSoftware" />
       </list>
     </recent_temporary>
   </component>
@@ -108,90 +131,85 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2b85a65f-ab40-42e5-8ff9-39e3b9310679" name="Default Changelist" comment="" />
-      <created>1583244296940</created>
+      <changelist id="d1165d48-7a4f-4558-bfb1-5816b5641693" name="Default Changelist" comment="" />
+      <created>1583496641518</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583244296940</updated>
-      <workItem from="1583244298243" duration="4375000" />
+      <updated>1583496641518</updated>
+      <workItem from="1583496642792" duration="443000" />
+      <workItem from="1583499830526" duration="7334000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="475" y="0" key="#All_in_FYS_Software" timestamp="1583248230497">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583499911780">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="475" y="0" key="#All_in_FYS_Software/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248230497" />
-    <state x="233" y="0" key="#Intentions" timestamp="1583247288896">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583499911780" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583501810375">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="233" y="0" key="#Intentions/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583247288896" />
-    <state x="233" y="0" key="#Plugins" timestamp="1583246931438">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583501810375" />
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1583503798125">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="233" y="0" key="#Plugins/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583246931438" />
-    <state x="233" y="0" key="#Project_Structure" timestamp="1583247785940">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1583503798125" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1583501319918">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="233" y="0" key="#Project_Structure/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583247785940" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583245154376">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583501319918" />
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1583506817621">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583245154376" />
-    <state x="608" y="115" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583248290099">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1583506817621" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1583503735842" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583503629179" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1583506817621">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="608" y="115" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248290099" />
-    <state x="758" y="200" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583248092984">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1583506817621" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1583503735842" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583503629179" />
+    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1583506817621">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="758" y="200" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248092984" />
-    <state x="475" y="0" key="#luggagesoftware.controller_in_FYS_Software" timestamp="1583248292006">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1583506817621" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1583503735842" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583503629179" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1583506817621">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="475" y="0" key="#luggagesoftware.controller_in_FYS_Software/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248292006" />
-    <state x="395" y="56" key="DetectedRootsChooserDialog" timestamp="1583248957544">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1200.1920.1160@0.0.1920.1040" timestamp="1583506817621" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1583503735842" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583503629179" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1583501325066">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="395" y="56" key="DetectedRootsChooserDialog/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248957544" />
-    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1583245027327">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583501325066" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583503462201">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583245027327" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1583249036280">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583503462201" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583499834202">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583249036280" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1583249036280">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583249036280" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1583249036279">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583249036279" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1583249036280">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583249036280" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1583249075778">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583249075778" />
-    <state x="376" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583247843110">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="376" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583247843110" />
-    <state x="405" y="44" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583248761470">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="405" y="44" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583248761470" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1583246919238">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/460.1080.1000.504@0.0.1280.680" timestamp="1583246919238" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583499834202" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FYS_Software$EmployeeTest.ic" NAME="EmployeeTest Coverage Results" MODIFIED="1583505492909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>luggagesoftware.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FYS_Software$EmployeeTest_getState.ic" NAME="EmployeeTest.getState Coverage Results" MODIFIED="1583502167767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>luggagesoftware.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FYS_Software$EmployeeTest_getName.ic" NAME="EmployeeTest.getName Coverage Results" MODIFIED="1583501734069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>luggagesoftware.controller.*</FILTER>
+    </SUITE>
   </component>
 </project>
