@@ -1,14 +1,24 @@
 package luggagesoftware.controller;
 
+import org.hamcrest.Matchers;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.StringStartsWith.startsWith;
 import static org.junit.jupiter.api.Assertions.*;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class EmployeeTest {
     Employee testEmp;
+    String wrongName = "xyz";
+    String wrongId = "0010";
+    String wrongUsername = "min";
+    String wrongEmail = "can@gmail.com";
+    String wrongLevel = "100";
+    String wrongAirportId = "55";
+    String wrongState = "38";
 
     @BeforeAll
     public void testEmployee(){
@@ -20,44 +30,49 @@ class EmployeeTest {
     @Test
     void getName() {
         String name = testEmp.getName();
-        assertEquals(name, "Ahmet");
+        assertTrue(name == wrongName);
     }
 
 
     @Test
     void getId() {
         String id = testEmp.getId();
-        assertEquals(id, "0001");
+        assertThat(id, startsWith(wrongId));
     }
 
     @Test
     void getUsername() {
         String username = testEmp.getUsername();
-        assertEquals(username, "ahmetcan");
+        assertThat(username, Matchers.endsWith(wrongUsername));
     }
 
     @Test
     void getMail() {
         String email = testEmp.getMail();
-        assertEquals(email, "ahmet@gmail.com");
+        assertEquals(email, wrongEmail);
     }
 
     @Test
     void getLevel() {
         String level = testEmp.getLevel();
-        assertEquals(level, "1");
+        assertEquals(level, wrongLevel);
     }
 
     @Test
     void getAirport_id() {
         String airport_id = testEmp.getAirport_id();
-        assertEquals(airport_id, "1");
+        assertEquals(airport_id, wrongAirportId);
     }
 
     @Test
     void getState() {
         String state = testEmp.getState();
-        assertEquals(state, "5");
+        assertEquals(state, wrongState);
     }
 
+    @Test
+    void getString() {
+        String stringWhat = testEmp.getString("name");
+        assertEquals(testEmp.getName(), stringWhat);
+    }
 }
