@@ -28,7 +28,9 @@ public class Traveler {
         this.mail = new SimpleStringProperty(mail);
         this.id = new SimpleStringProperty(id);
     }
-
+    public Boolean hasMail(){
+        return getMail().length() > 0;
+    }
     public String getNaam() {
         return naam.get();
     }
@@ -68,45 +70,45 @@ public class Traveler {
     public String getId() {
         return id.get();
     }
-    
+
     public String getString(String what){
         String value = "";
         switch(what){
             case "naam":
                 value = getNaam();
-            break;
+                break;
             case "achternaam":
                 value = getAchternaam();
-            break;
+                break;
             case "geboorteDatum":
                 value = getGeb_datum();
-            break;
+                break;
             case "postcode":
                 value = getPostcode();
-            break;
+                break;
             case "stad":
                 value = getStad();
-            break;
+                break;
             case "land":
                 value = getLand();
-            break;
-            
+                break;
+
             case "adres":
                 value = getAdres();
-            break;
-            
+                break;
+
             case "mobiel":
                 value = getMobiel();
-            break;
-            
+                break;
+
             case "mail":
                 value = getMail();
-            break;
-            
+                break;
+
             case "id":
                 value = getId();
-            break;
-            
+                break;
+
         }
         return value;
     }

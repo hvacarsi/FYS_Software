@@ -47,7 +47,7 @@ class TravelerTest {
     @Test
     void getPostcode() {
         String postcode = testTraveler.getPostcode();
-        assertTrue(postcode == "1082RT");
+        assertSame("1082RT", postcode);
     }
 
     @Test
