@@ -2,7 +2,6 @@ package luggagesoftware.controller;
 
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.*;
-
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.StringStartsWith.startsWith;
 import static org.junit.jupiter.api.Assertions.*;
@@ -69,7 +68,20 @@ class EmployeeTest {
     void getState() {
         String state = testEmp.getState();
         assertEquals(state, wrongState);
+
     }
+
+    /*@Test
+    void getState() {
+        String state = wrongState;
+        if (state.equals(testEmp.getState())) {
+
+            Throwable thrown = assertThrows(NullPointerException.class, () -> testEmp.getState());
+            assertEquals("Cannot divide by zero", thrown.getMessage());
+        } else{
+            assertEquals(state, wrongState);
+        }
+    }*/
 
     @Test
     void getString() {
