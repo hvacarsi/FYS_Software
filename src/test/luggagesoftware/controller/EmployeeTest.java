@@ -1,10 +1,7 @@
 package luggagesoftware.controller;
 
 import org.hamcrest.Matchers;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.*;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.StringStartsWith.startsWith;
@@ -26,6 +23,10 @@ class EmployeeTest {
                 "ahmet@gmail.com", "1", "1", "5");
     }
 
+    @AfterAll
+    void tearDown() {
+        testEmp = null;
+    }
 
     @Test
     void getName() {
