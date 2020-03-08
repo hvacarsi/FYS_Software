@@ -1,7 +1,9 @@
 package luggagesoftware.controller;
 
-import javafx.beans.property.StringProperty;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
 
 import static org.junit.jupiter.api.Assertions.*;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
@@ -52,14 +54,21 @@ class TravelerTest {
 
     @Test
     void getStad() {
+        String stad = testTraveler.getStad();
+        assertTrue(stad == "Amsterdam");
     }
 
     @Test
     void getLand() {
+        //Forced Error!
+        String land = testTraveler.getLand();
+        assertTrue(land == "Belgie");
     }
 
     @Test
     void getAdres() {
+        String adres = testTraveler.getAdres();
+        assertTrue(adres == "Wibautstraat");
     }
 
     @Test
@@ -70,6 +79,8 @@ class TravelerTest {
 
     @Test
     void getMail() {
+        String mail = testTraveler.getMail();
+        assertTrue(mail == "emintorun58@gmail.com");
     }
 
     @Test
