@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.StringStartsWith.startsWith;
 import static org.junit.jupiter.api.Assertions.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
@@ -37,15 +38,19 @@ class LuggageTest {
     @Test
     void getDestination() {
         String destination = testLuggage.getDestination();
-        assertNull(destination);
+        assertNull(destination, "Your destination is Antalya.");
     }
 
     @Test
     void getDeparture() {
+        String departure = testLuggage.getDeparture();
+        assertThat(departure, startsWith("Schiphol"));
     }
 
     @Test
     void getDate() {
+        String date = testLuggage.getDate();
+        assertThat(date, Matchers.startsWith("3/6"));
     }
 
     @Test
@@ -56,21 +61,31 @@ class LuggageTest {
 
     @Test
     void getLuggageId() {
+        String luggageId = testLuggage.getLuggageId();
+        assertThat(luggageId, Matchers.endsWith("3"));
     }
 
     @Test
     void getString() {
+        String stringLblnr = testLuggage.getString("labelNumber");
+        assertEquals(testLuggage.getLabelNumber(), stringLblnr);
     }
 
     @Test
     void getState() {
+        String state = testLuggage.getState();
+        assertEquals(state, "Found", "Your luggage is still lost. Let's hope we find it as soon as possible");
     }
 
     @Test
     void getColor() {
+        String color = testLuggage.getColor();
+        assertSame("Red", color);
     }
 
     @Test
     void getType() {
+        String type = testLuggage.getType();
+        assertTrue(type == "wheels");
     }
 }
