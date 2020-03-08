@@ -8,13 +8,18 @@ package luggagesoftware.controller;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author User
  */
 public class Employee {
     public StringProperty id, name, username, mail, level, airport_id, state;
-    
+    public List<Employee> employees = new ArrayList<Employee>();
+
+
     
     public Employee(String id, String name, String username, String mail, String level, String airport_id, String state){
         this.id = new SimpleStringProperty(id);
@@ -24,6 +29,10 @@ public class Employee {
         this.level = new SimpleStringProperty(level);
         this.airport_id = new SimpleStringProperty(airport_id);
         this.state = new SimpleStringProperty(state);
+    }
+
+    public void addEmployeeToList(Employee employee){
+        employees.add(employee);
     }
 
     public String getName() {
