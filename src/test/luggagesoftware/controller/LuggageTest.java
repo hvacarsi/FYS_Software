@@ -2,10 +2,7 @@ package luggagesoftware.controller;
 
 import luggagesoftware.Luggage;
 import org.hamcrest.Matchers;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.*;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.StringStartsWith.startsWith;
@@ -20,7 +17,7 @@ class LuggageTest {
     @BeforeAll
     public void testLuggage() {
         testLuggage = new Luggage("147", "36ANT2020", "Lost",
-                "Red", "wheels", "33", "Antalya", "Schiphol Airport", "3/6/2020");
+                "Red", "wheels", "33", null, "Schiphol Airport", "3/6/2020");
     }
 
 
@@ -30,21 +27,33 @@ class LuggageTest {
     }
 
     @Test
+    @DisplayName("Labelnummer controleren")
     void getLabelNumber() {
         String labelNumber = testLuggage.getLabelNumber();
         assertSame("147", labelNumber);
     }
 
     @Test
+    @DisplayName("Destination controleren of het null is")
     void getDestination() {
-        String destination = testLuggage.getDestination();
-        assertNull(destination, "Your destination is Antalya.");
+        assertThrows(NullPointerException.class,
+                ()->{
+                    String destination = testLuggage.getDestination();
+                    NullPointerException nullPointerException = new NullPointerException(destination);
+                    System.out.println("Destination was: " + nullPointerException.getMessage());
+                    throw nullPointerException;
+                    //do whatever you want to do here
+                    //ex : objectName.thisMethodShoulThrowNullPointerExceptionForNullParameter(null);
+                });
     }
 
     @Test
+    @DisplayName("Departure nullifyen")
     void getDeparture() {
+
         String departure = testLuggage.getDeparture();
-        assertThat(departure, startsWith("Schiphol"));
+        assertNull(departure, "Departure has been nullified");
+
     }
 
     @Test
@@ -54,6 +63,7 @@ class LuggageTest {
     }
 
     @Test
+    @DisplayName("Vluchtnummer controleren door een deel te matchen")
     void getFlightNumber() {
         String flightNumber = testLuggage.getFlightNumber();
         assertThat(flightNumber, Matchers.containsString("6ANT2"));
