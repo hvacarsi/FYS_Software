@@ -1,9 +1,6 @@
 package luggagesoftware.controller;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
@@ -84,11 +81,18 @@ class TravelerTest {
     }
 
     @Test
+    @DisplayName("Id controleren of het bestaat")
     void getId() {
+        String id = testTraveler.getId();
+        assertSame(id, null, "ID is null!");
 
     }
 
+
     @Test
+    @DisplayName("Strings controleren")
     void getString() {
+        String stringWhat = testTraveler.getString("postcode");
+        assertEquals(testTraveler.getPostcode(), stringWhat);
     }
 }
