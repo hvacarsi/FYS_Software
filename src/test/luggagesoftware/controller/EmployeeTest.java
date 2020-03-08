@@ -22,6 +22,28 @@ class EmployeeTest {
     }
 
     @Test
+    void addEmployeeToList() {
+        Employee testEmployeeOne = new Employee("0001", "Ahmet", "ahmetcan",
+                "ahmet@gmail.com", "1", "1", "5");
+
+        Employee testEmployeeTwo = new Employee("0002", "Emin", "Torun",
+                "emin@gmail.com", "1", "10", "4");
+
+        Employee testEmployeeThree = new Employee("0003", "Furkan", "Turkmen",
+                "furkan@gmail.com", "1", "1", "3");
+
+        testEmp.addEmployeeToList(testEmployeeOne);
+        testEmp.addEmployeeToList(testEmployeeTwo);
+        testEmp.addEmployeeToList(testEmployeeThree);
+
+        int i = 0;
+        for(Employee emp : testEmp.employees){
+            assertEquals(emp.getName(), testEmp.employees.get(i).getName());
+            i++;
+        }
+    }
+
+    @Test
     void getName() {
         String name = testEmp.getName();
         assertTrue(name == wrongName);
@@ -64,18 +86,6 @@ class EmployeeTest {
         assertEquals(state, "5");
 
     }
-
-    /*@Test
-    void getState() {
-        String state = wrongState;
-        if (state.equals(testEmp.getState())) {
-
-            Throwable thrown = assertThrows(NullPointerException.class, () -> testEmp.getState());
-            assertEquals("Cannot divide by zero", thrown.getMessage());
-        } else{
-            assertEquals(state, wrongState);
-        }
-    }*/
 
     @Test
     void getString() {
