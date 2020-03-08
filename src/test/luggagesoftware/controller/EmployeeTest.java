@@ -2,7 +2,6 @@ package luggagesoftware.controller;
 
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.*;
-
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.StringStartsWith.startsWith;
 import static org.junit.jupiter.api.Assertions.*;
@@ -10,12 +9,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class EmployeeTest {
     Employee testEmp;
     String wrongName = "xyz";
-    String wrongId = "0010";
-    String wrongUsername = "min";
-    String wrongEmail = "can@gmail.com";
-    String wrongLevel = "100";
-    String wrongAirportId = "55";
-    String wrongState = "38";
 
     @BeforeAll
     public void testEmployee(){
@@ -29,6 +22,28 @@ class EmployeeTest {
     }
 
     @Test
+    void addEmployeeToList() {
+        Employee testEmployeeOne = new Employee("0001", "Ahmet", "ahmetcan",
+                "ahmet@gmail.com", "1", "1", "5");
+
+        Employee testEmployeeTwo = new Employee("0002", "Emin", "Torun",
+                "emin@gmail.com", "1", "10", "4");
+
+        Employee testEmployeeThree = new Employee("0003", "Furkan", "Turkmen",
+                "furkan@gmail.com", "1", "1", "3");
+
+        testEmp.addEmployeeToList(testEmployeeOne);
+        testEmp.addEmployeeToList(testEmployeeTwo);
+        testEmp.addEmployeeToList(testEmployeeThree);
+
+        int i = 0;
+        for(Employee emp : testEmp.employees){
+            assertEquals(emp.getName(), testEmp.employees.get(i).getName());
+            i++;
+        }
+    }
+
+    @Test
     void getName() {
         String name = testEmp.getName();
         assertTrue(name == wrongName);
@@ -38,37 +53,38 @@ class EmployeeTest {
     @Test
     void getId() {
         String id = testEmp.getId();
-        assertThat(id, startsWith(wrongId));
+        assertThat(id, startsWith("0001"));
     }
 
     @Test
     void getUsername() {
         String username = testEmp.getUsername();
-        assertThat(username, Matchers.endsWith(wrongUsername));
+        assertThat(username, Matchers.endsWith("ahmetcan"));
     }
 
     @Test
     void getMail() {
         String email = testEmp.getMail();
-        assertEquals(email, wrongEmail);
+        assertEquals(email, "ahmet@gmail.com");
     }
 
     @Test
     void getLevel() {
         String level = testEmp.getLevel();
-        assertEquals(level, wrongLevel);
+        assertEquals(level, "1");
     }
 
     @Test
     void getAirport_id() {
         String airport_id = testEmp.getAirport_id();
-        assertEquals(airport_id, wrongAirportId);
+        assertEquals(airport_id, "1");
     }
 
     @Test
     void getState() {
         String state = testEmp.getState();
-        assertEquals(state, wrongState);
+        assertEquals(state, "5");
+
     }
 
     @Test
