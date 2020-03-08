@@ -95,7 +95,7 @@ class EmployeeTest {
     }
 
     @Test
-    @DisplayName("AirportId controleren")
+    @DisplayName("Airport Id controleren")
     void getAirport_id() {
         String airport_id = testEmp.getAirport_id();
         assertEquals(airport_id, "1");

@@ -57,6 +57,7 @@ class LuggageTest {
     }
 
     @Test
+    @DisplayName("Labelnummer controleren of begin klopt")
     void getDate() {
         String date = testLuggage.getDate();
         assertThat(date, Matchers.startsWith("3/6"));
@@ -70,30 +71,35 @@ class LuggageTest {
     }
 
     @Test
+    @DisplayName("Luggage Id controleren of einde klopt")
     void getLuggageId() {
         String luggageId = testLuggage.getLuggageId();
         assertThat(luggageId, Matchers.endsWith("3"));
     }
 
     @Test
+    @DisplayName("Strings controleren")
     void getString() {
         String stringLblnr = testLuggage.getString("labelNumber");
         assertEquals(testLuggage.getLabelNumber(), stringLblnr);
     }
 
     @Test
+    @DisplayName("State van luggage controleren")
     void getState() {
         String state = testLuggage.getState();
-        assertEquals(state, "Found", "Your luggage is still lost. Let's hope we find it as soon as possible");
+        assertEquals(state, "Found", "Your luggage is found! ");
     }
 
     @Test
+    @DisplayName("Color van luggage controleren")
     void getColor() {
         String color = testLuggage.getColor();
         assertSame("Red", color);
     }
 
     @Test
+    @DisplayName("Type van luggage controleren")
     void getType() {
         String type = testLuggage.getType();
         assertTrue(type == "wheels");
